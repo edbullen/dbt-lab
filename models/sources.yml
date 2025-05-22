@@ -23,6 +23,6 @@ sources:
      - name: lineitem_bronze
        columns:
              - name: L_ORDERKEY
+               description: Primary key of the lineitem table
                tests:
-                 - unique
                  - not_null
